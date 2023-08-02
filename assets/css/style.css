@@ -142,3 +142,19 @@ footer {
     background-color: #f8f8f8;
     color: #555;
 }
+
+/* Gallery Photos */
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+.pictures {
+    margin-top: 100px;
+    padding: 30px;
+    width: 30%;
+    height: auto;
+}
