@@ -20,7 +20,7 @@ body {
     color: #333;
 }
 
-/* Navigation bar styles */
+/* Navigation bar  */
 nav {
     background-color: #f8f8f8;
     padding: 10px 20px;
@@ -145,16 +145,14 @@ footer {
 
 /* Gallery Photos */
 
-#photo {
+#photos {
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0px;
 }
 
-.pictures {
-    margin-top: 100px;
-    padding: 30px;
-    width: 30%;
+#photos img {
+    max-width: 100%;
     height: auto;
 }
