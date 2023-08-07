@@ -1,4 +1,3 @@
-/* Reset some default styles */
 html,
 body,
 h1,
@@ -17,12 +16,12 @@ li {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: rgb(255, 255, 255);
 }
 
 /* Navigation bar  */
 nav {
-    background-color: #f8f8f8;
+    background-color: #b5639a;
     padding: 10px 20px;
     display: flex;
     justify-content: center;
@@ -44,10 +43,16 @@ nav a {
 }
 
 /* Header section styles */
+
+.main-logo {
+    max-width: 10%;
+    height: auto;
+}
+
 header {
     text-align: center;
-    padding: 80px 0;
-    background-color: #f0f0f0;
+    padding: 30px 0;
+    background-color: #ffffff;
 }
 
 header h1 {
@@ -58,26 +63,27 @@ header h1 {
 
 header p {
     font-size: 18px;
-    color: #777;
+    color: rgb(230, 182, 27);
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff6b6b;
-    color: #fff;
+    background-color: #630c4c;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
     border-radius: 5px;
     margin-top: 20px;
 }
 
-/* Main content section styles */
 main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
+    background-color: rgb(223, 183, 207);
+    margin-bottom: 10px;
+
+
 }
+
 
 /* Featured cake section styles */
 .featured-cake {
@@ -96,7 +102,7 @@ main {
 }
 
 .featured-cake img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
 }
 
@@ -106,12 +112,8 @@ main {
     margin-bottom: 10px;
 }
 
-.cake-price {
-    font-size: 18px;
-    color: #ff6b6b;
-}
 
-/* Testimonials section styles */
+/* Testimonial styles */
 .testimonials {
     text-align: center;
 }
@@ -120,8 +122,10 @@ main {
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(101, 77, 158);
     border-radius: 5px;
+
+
 }
 
 .testimonial-text {
@@ -133,13 +137,14 @@ main {
 .testimonial-author {
     font-size: 14px;
     color: #777;
+
 }
 
 /* Footer styles */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #f8f8f8;
+    background-color: rgb(249, 249, 249);
     color: #555;
 }
 
@@ -148,11 +153,13 @@ footer {
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 3;
-    column-gap: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #photos img {
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
+    border: solid;
 }
