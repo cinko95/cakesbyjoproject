@@ -38,13 +38,14 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #555;
-    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 /* Header section styles */
 
 .main-logo {
+    position: center;
     max-width: 50%;
     height: auto;
 }
@@ -169,7 +170,7 @@ footer {
     padding: 40px;
 }
 
-/* Style for form elements */
+/* Style form elements */
 .contact-form form {
     max-width: 400px;
     margin: 0 auto;
@@ -187,6 +188,23 @@ footer {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 5px;
+    resize: vertical;
+}
+
+.contact-form h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
 }
