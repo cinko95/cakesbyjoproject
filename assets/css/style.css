@@ -192,19 +192,3 @@ footer {
     border-radius: 5px;
     resize: vertical;
 }
-
-.contact-form h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.contact-form p {
-    font-size: 20px;
-    margin-bottom: 30px;
-    color: #666;
-}
-
-.contact-form form {
-    max-width: 600px;
-    margin: 0 auto;
-}
