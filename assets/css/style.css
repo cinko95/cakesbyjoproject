@@ -45,7 +45,7 @@ nav a {
 /* Header section styles */
 
 .main-logo {
-    max-width: 10%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -162,4 +162,31 @@ footer {
     max-width: 30%;
     height: auto;
     border: solid;
+}
+
+.contact-form {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Style for form elements */
+.contact-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
