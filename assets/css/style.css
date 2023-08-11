@@ -1,3 +1,4 @@
+/* Reset and basic styling */
 html,
 body,
 h1,
@@ -16,7 +17,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-/* Navigation bar  */
+/* Navigation bar */
 nav {
     background-color: #b5639a;
     padding: 10px 20px;
@@ -45,7 +46,6 @@ nav a:hover {
 }
 
 /* Header section styles */
-
 .main-logo {
     position: center;
     max-width: 25%;
@@ -54,7 +54,8 @@ nav a:hover {
 
 header {
     text-align: center;
-    padding: 10 px 0;
+    padding: 10px 0;
+    /* Adjusted padding here */
     background-color: #ffffff;
     margin-bottom: 10px;
 }
@@ -84,10 +85,7 @@ header p {
 main {
     background-color: rgb(223, 183, 207);
     margin-bottom: 10px;
-
-
 }
-
 
 /* Featured cake section */
 .featured-cake {
@@ -118,7 +116,6 @@ main {
     margin-bottom: 10px;
 }
 
-
 /* Testimonial styles */
 .testimonials {
     text-align: center;
@@ -130,8 +127,6 @@ main {
     padding: 20px;
     border: 1px solid rgb(101, 77, 158);
     border-radius: 5px;
-
-
 }
 
 .testimonial-text {
@@ -143,7 +138,6 @@ main {
 .testimonial-author {
     font-size: 14px;
     color: #777;
-
 }
 
 /* Footer styles */
@@ -154,11 +148,8 @@ footer {
     color: #555;
 }
 
-
-
 .social-networks {
     text-align: center;
-
 }
 
 .social-networks li {
@@ -172,27 +163,54 @@ footer {
     color: #d530e7;
 }
 
-/* products photos */
-
+/* Products photos */
 #photos {
     clear: both;
-    line-height: 0;
     display: flex;
     flex-wrap: wrap;
-
     justify-content: space-between;
+    margin: 0 -10px;
 }
 
-#photos img {
-    width: calc(33.33% - 10px);
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    border: solid;
+.product {
+    width: calc(33.33% - 20px);
+    margin: 0 10px;
+    text-align: center;
 }
 
+.product img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
 
+.product h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
 
-/* contact form */
+.product p {
+    font-size: 14px;
+    color: rgb(216, 45, 131);
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(230, 139, 27);
+    margin-top: 5px;
+
+}
+
+@media (max-width: 768px) {
+    .product {
+        width: calc(100% - 20px);
+    }
+}
+
+/* Contact form */
 .contact-form {
     text-align: center;
     padding: 40px;
@@ -220,7 +238,7 @@ footer {
     resize: vertical;
 }
 
-/*style for submitted.html*/
+/* Style for submitted.html */
 .submitted {
     text-align: center;
     padding: 60px 0;
