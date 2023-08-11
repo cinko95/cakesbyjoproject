@@ -22,6 +22,7 @@ nav {
     padding: 10px 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 nav ul {
@@ -36,7 +37,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 nav a:hover {
@@ -47,7 +48,7 @@ nav a:hover {
 
 .main-logo {
     position: center;
-    max-width: 20%;
+    max-width: 25%;
     height: auto;
 }
 
@@ -95,9 +96,10 @@ main {
 }
 
 .featured-cake h2 {
+    font-style: italic;
     font-size: 28px;
     margin-bottom: 20px;
-    color: #555;
+    color: rgb(80, 45, 2);
 }
 
 .featured-cake .cake-image {
@@ -110,8 +112,9 @@ main {
 }
 
 .cake-description {
-    font-size: 16px;
-    color: #777;
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(230, 139, 27);
     margin-bottom: 10px;
 }
 
@@ -149,6 +152,24 @@ footer {
     padding: 20px;
     background-color: rgb(249, 249, 249);
     color: #555;
+}
+
+
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #d530e7;
 }
 
 /* products photos */
