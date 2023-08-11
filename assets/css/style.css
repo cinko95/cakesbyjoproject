@@ -219,3 +219,20 @@ footer {
     border-radius: 5px;
     resize: vertical;
 }
+
+/*style for submitted.html*/
+.submitted {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.submitted h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.submitted p {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 30px;
+}
