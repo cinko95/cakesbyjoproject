@@ -217,6 +217,14 @@ footer {
     text-align: center;
 }
 
+.contact-form h2 {
+    text-align: center;
+}
+
+.contact-form p {
+    text-align: center;
+}
+
 .contact-form form {
     max-width: 400px;
     margin: 0 auto;
