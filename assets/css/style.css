@@ -214,6 +214,7 @@ footer {
 .contact-form {
     font-family: 'Times New Roman', Times, serif;
     padding: 40px;
+    text-align: center;
 }
 
 .contact-form form {
