@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: rgb(255, 255, 255);
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 /* Navigation bar */
 nav {
     background-color: #b5639a;
-    padding: 10px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,11 +16,17 @@ nav {
 
 nav ul {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
 }
 
 nav li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+
 }
 
 nav a {
@@ -105,25 +112,27 @@ main {
 /* Testimonial styles */
 .testimonials {
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .testimonial-card {
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid rgb(101, 77, 158);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
+    padding-bottom: 40px;
 }
 
 .testimonial-text {
     font-size: 16px;
-    color: #555;
+    color: rgb(255, 253, 253);
     margin-bottom: 10px;
 }
 
 .testimonial-author {
     font-size: 14px;
-    color: #777;
+    color: rgb(255, 252, 252);
 }
 
 /* Footer styles */
@@ -160,13 +169,16 @@ footer {
 
 .product {
     width: calc(33.33% - 20px);
-    margin: 0 10px;
+    margin: 0 auto;
     text-align: center;
+    max-width: 1300px;
 }
 
 .product img {
     max-width: 100%;
-    height: auto;
+    width: 400px;
+    aspect-ratio: 1;
+    object-fit: cover;
     border: 1px solid #ccc;
     margin-bottom: 10px;
 }
@@ -200,7 +212,7 @@ footer {
 
 /* Contact form */
 .contact-form {
-    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     padding: 40px;
 }
 
