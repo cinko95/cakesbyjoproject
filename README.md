@@ -39,7 +39,7 @@ Read what our satisfied customers have to say:
 For orders or inquiries, please feel free to reach out to us:
 
 Email: contact@cakesbyjo.com
-Website: https://www.cakesbyjo.com/contact
+Website: https://cinko95.github.io/cakesbyjoproject/contact-us.html
 
 **Technologies:**
 HTML5
