@@ -1,47 +1,49 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Cakes by Jo 
+# Cakes by Jo Website
 
-Welcome to the Cakes by Jo website: This project showcases a delightful collection of cakes for various occasions. Whether it's a birthday, anniversary, or any special event, our cakes are designed to bring joy and happiness.
+Welcome to the **Cakes by Jo** website repository! This is a simple website showcasing delicious cakes for different occasions.
 
-**Content:**
+## What's Inside?
 
-Description
-Features
-Navigation
-Testimonials
-Contact
+- [Description](#description)
+- [Features](#features)
+- [Testimonials](#testimonials)
+- [Contact](#contact)
+- [Technologies](#technologies)
 
-**Description:**
-Cakes by Jo website is a showcase of beautifully crafted cakes that cater to every celebration. It's a platform where you can explore our selection of cakes.
+## Description
 
-**Features:**
-Home Page: The landing page introduces visitors to the essence of our cakes and their perfect fit for special occasions.
-Products: Explore a variety of cakes available for different events, with high-quality images and detailed descriptions.
-Contact Us: Reach out to us using the provided contact form or find our contact details for inquiries and orders.
+The **Cakes by Jo** website introduces you to a variety of cakes and bakes, perfect for celebrations.
 
-**Navigation:**
-The website navigation is user-friendly and consists of the following main sections:
+## Features
 
-Home: Introduction to the website and what it offers
-Products: Browse of products available.
-Contact: Get in touch for inquiries.
+- **Home Page:** The main page welcomes you to our cake world.
+- **Products:** Check out pictures and info about our cakes.
+- **Contact Us:** Reach out for questions or orders.
 
-**Testimonials:**
-Read what our satisfied customers have to say:
+## Testimonials
 
-"The cakes at Cakes by Jo are simply amazing. I ordered one for my daughter's birthday, and it was a huge hit!"
+Here's what our customers say:
 
+> "Cakes by Jo are super amazing. I got one for my daughter's birthday, and everyone loved it!"
+> - Happy Customer
 
-"The taste and presentation of the cakes are top-notch. Highly recommended!"
+> "These cakes are top-notch. Highly recommended!"
+> - Another Happy Customer
 
-**Contact:**
-For orders or inquiries, please feel free to reach out to us:
+## Contact
 
-Email: contact@cakesbyjo.com
-Website: https://cinko95.github.io/cakesbyjoproject/contact-us.html
+Get in touch:
 
-**Technologies:**
-HTML5
-CSS3
-Font Awesome icons
+- Email: contact@cakesbyjo.com
+- Website: [https://cinko95.github.io/cakesbyjoproject/contact-us.html](https://www.cakesbyjo.com/contact)
+
+## Technologies
+
+Built using:
+
+- HTML5
+- CSS3
+- Font Awesome icons
+- Works on all devices
+
