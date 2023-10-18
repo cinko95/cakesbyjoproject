@@ -61,7 +61,7 @@ header h1 {
 
 header p {
     font-size: 18px;
-    color: rgb(230, 182, 27);
+    color: rgb(15, 15, 15);
 }
 
 .cta-button {
@@ -105,7 +105,7 @@ main {
 .cake-description {
     font-style: italic;
     font-size: 18px;
-    color: rgb(230, 139, 27);
+    color: rgb(15, 15, 15);
     margin-bottom: 10px;
 }
 
