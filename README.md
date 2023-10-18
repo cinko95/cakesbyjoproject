@@ -73,5 +73,7 @@ tested with lighthouse testing tool:
 ![image](https://github.com/cinko95/cakesbyjoproject/assets/137789244/8fa1c80a-ea9b-4f5a-bab9-d572065a4843)
 
 
-
+Tested on different browsers (chrome,safari,edge) | passed
+tested on different devices                       | passed
+loading pictures and position when changing device| passed
 
