@@ -11,6 +11,7 @@ Welcome to the **Cakes by Jo** website repository! This is a simple website show
 - [Testimonials](#testimonials)
 - [Contact](#contact)
 - [Technologies](#technologies)
+- [Testing](#testing)
 
 ## Description
 
@@ -63,4 +64,14 @@ Built using:
 - CSS3
 - Font Awesome icons
 - Works on all devices
+
+## Testing
+
+tested with lighthouse testing tool:
+![image](https://github.com/cinko95/cakesbyjoproject/assets/137789244/5c2fbb29-6119-4abf-ba21-f19408e04fee)
+![image](https://github.com/cinko95/cakesbyjoproject/assets/137789244/c8bb8af0-7222-46fa-b933-c30e16ff33df)
+![image](https://github.com/cinko95/cakesbyjoproject/assets/137789244/8fa1c80a-ea9b-4f5a-bab9-d572065a4843)
+
+
+
 
