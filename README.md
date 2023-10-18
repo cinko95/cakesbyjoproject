@@ -7,6 +7,7 @@ Welcome to the **Cakes by Jo** website repository! This is a simple website show
 
 - [Description](#description)
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [Testimonials](#testimonials)
 - [Contact](#contact)
 - [Technologies](#technologies)
@@ -20,6 +21,22 @@ The **Cakes by Jo** website introduces you to a variety of cakes and bakes, perf
 - **Home Page:** The main page welcomes you to our cake world.
 - **Products:** Check out pictures and info about our cakes.
 - **Contact Us:** Reach out for questions or orders.
+
+## Screenshots
+
+Here's a sneak peek:
+
+![image](https://github.com/cinko95/cakesbyjoproject/assets/137789244/0d93d40e-d1b1-4977-9b4b-cf81cebc2038)
+
+*Home Page: Welcome to Cakes by Jo.*
+
+![image](https://github.com/cinko95/cakesbyjoproject/assets/137789244/70943fa4-4397-48fb-bfb2-ff1b46261004)
+
+*Products: Explore our cake offerings.*
+
+![image](https://github.com/cinko95/cakesbyjoproject/assets/137789244/8c5f0b9c-5373-4b1a-8dc1-9cf945407201)
+
+*Contact us: Stay in touch with us.*
 
 ## Testimonials
 
